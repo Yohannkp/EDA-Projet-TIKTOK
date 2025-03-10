@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 📌 Charger les données
-DATA_PATH = "../data/tiktok_dataset.csv"  # 👉 Remplacez par votre fichier
+DATA_PATH = "data/tiktok_dataset.csv"  # 👉 Remplacez par votre fichier
 df = pd.read_csv(DATA_PATH)
 
 # 📌 Sélectionner les variables
